@@ -89,3 +89,7 @@ Home Page → Click "Products" → Product List Page
 
 **User Flow 3**
 Product Page → Click "Add to Cart" → Shopping Cart Page
+
+# Submission
+Please complete the homework in a GoogleDoc (name it "Week1 Homework") and download it as a pdf, then upload it to your Congressional-App-Challenge-Homework repository.
+Feel free to email me at **david.wang@codeninjas.com** if you have any questions.
