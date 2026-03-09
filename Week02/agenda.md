@@ -132,6 +132,7 @@ Developers use it to write many programming languages including:
 - Python
 - Java
 - C++
+- and more!
 
 It is:
 - free
@@ -159,69 +160,7 @@ Add extra features to VS Code.
 
 ---
 
-## Hands-On Activity
-
-1. Open Visual Studio Code.
-2. Explore the following areas:
-   - Explorer
-   - Terminal
-   - Editor
-
-Try creating a new file called:
-
-```
-
-test.txt
-
-```
-
-Write one sentence inside it.
-
----
-
-# Part 3: Connecting VS Code to GitHub
-
-Developers usually connect their IDE to GitHub so they can upload their work easily.
-
-Steps:
-
-1. Open VS Code
-2. Sign in to GitHub
-3. Clone a repository OR create one
-4. Make changes
-5. Commit changes
-6. Push changes to GitHub
-
-Workflow example:
-
-```
-
-Edit file
-↓
-git add
-↓
-git commit
-↓
-git push
-
-```
-
-This uploads your work to GitHub.
-
----
-
-## Hands-On Activity
-
-Follow along with the instructor:
-
-1. Open VS Code
-2. Connect your GitHub account
-3. Open the Source Control tab
-4. Look at how commits work
-
----
-
-# Part 4: Creating Your Portfolio Repository
+# Part 3: Creating Your Portfolio Repository
 
 Today you will create your **first portfolio repository**.
 
@@ -234,30 +173,19 @@ Your portfolio will store your future projects.
 Go to GitHub and click:
 
 ```
-
 New Repository
-
 ```
 
 Repository name:
-
 ```
-
 portfolio
-
 ```
 
 Make sure:
 - repository is **public**
 - initialize with **README**
 
-Then click:
-
-```
-
-Create repository
-
-```
+Then click **Create repository**
 
 ---
 
@@ -268,9 +196,7 @@ Copy the repository URL.
 In VS Code terminal run:
 
 ```
-
 git clone <repository url>
-
 ```
 
 This will download your repository to your computer.
@@ -295,13 +221,11 @@ Markdown uses symbols to style text.
 ### Headers
 
 ```
-
 # Title
 
 ## Section
 
 ### Subsection
-
 ```
 
 Example:
@@ -314,9 +238,7 @@ Example:
 ### Bold Text
 
 ```
-
 **bold text**
-
 ```
 
 Example:
@@ -325,56 +247,53 @@ Example:
 
 ---
 
-### Bullet Lists
+### Lists
 
 ```
+1. item one
+2. item two
+3. item three
 
-* item one
-* item two
-* item three
-
+- item one
+- item two
+- item three
 ```
 
 Example:
 
-- HTML
-- CSS
-- JavaScript
+1. item one
+2. item two
+3. item three
+
+- item one
+- item two
+- item three
 
 ---
 
 ### Links
 
 ```
-
 [link text](website url)
-
 ```
 
 Example:
 
-```
-
-[GitHub](https://github.com)
-
-```
+[Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
 
 ---
 
-# Hands-On Activity: Write Your First README
+# Activity: Write Your First README
 
 Open the file:
 
 ```
-
 README.md
-
 ```
 
 Add the following:
 
 ```
-
 # My Coding Portfolio
 
 Welcome to my coding portfolio.
@@ -382,22 +301,6 @@ Welcome to my coding portfolio.
 ## About Me
 
 My name is ______.
-
-I am learning how to build websites and apps.
-
-## Skills I Will Learn
-
-* HTML
-* CSS
-* JavaScript
-* GitHub
-
-## Future Projects
-
-* My personal website
-* A game
-* A useful app
-
 ```
 
 ---
@@ -408,30 +311,21 @@ After editing your README:
 
 1. Save the file
 2. Stage the changes
-
 ```
-
 git add .
-
 ```
 
 3. Commit
-
 ```
-
-git commit -m "Created portfolio README"
-
+git commit -m "Updated README"
 ```
 
 4. Push
-
 ```
-
 git push
-
 ```
 
-Now your portfolio is saved on GitHub.
+Now your portfolio is saved on GitHub!
 
 ---
 
