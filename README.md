@@ -19,8 +19,8 @@
 ### Week 2: 3/9 - 3/15  
 **Technical Tools Introduction**
 - GitHub overview
-- IDE (Visual Studio Code)
-- Create Portfolio Repository and README
+- IDE setup and introduction to Visual Studio Code
+- Create portfolio repository and README
 
 ### Week 3: 3/16 - 3/22  
 **HTML Fundamentals**
