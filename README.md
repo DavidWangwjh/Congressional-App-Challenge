@@ -13,17 +13,18 @@
 ### Week 1: 3/2 - 3/8  
 **Program Kickoff & Design Foundations**
 - Congressional App Challenge overview
-- User-centered design and user stories
-- Wireframing and UI/UX basics
+- Check out past winners' projects
+- UI/UX basics
 
 ### Week 2: 3/9 - 3/15  
-**Technical Planning & HTML Fundamentals**
-- Frontend vs backend concepts
-- App planning and structure
-- HTML syntax and semantic tags
+**Technical Tools Introduction**
+- GitHub overview
+- IDE (Visual Studio Code)
+- Create Portfolio Repository and README
 
 ### Week 3: 3/16 - 3/22  
-**HTML Structure & Forms**
+**HTML Fundamentals**
+- HTML syntax and semantic tags
 - Multi-page websites
 - Forms and inputs
 - Accessibility basics
