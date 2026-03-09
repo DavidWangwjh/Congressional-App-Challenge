@@ -170,11 +170,7 @@ Your portfolio will store your future projects.
 
 ## Step 1: Create Repository on GitHub
 
-Go to GitHub and click:
-
-```
-New Repository
-```
+Go to GitHub and click **New Repository**
 
 Repository name:
 ```
