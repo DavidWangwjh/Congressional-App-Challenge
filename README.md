@@ -6,6 +6,8 @@
 **Class Format:** One 2-hour session per week, lecture style + hands-on activities  
 **Focus:** Web Development, App Design, Databases, and Competition Submission
 
+Reach out to Sensei David: davidcnuc@gmail.com
+
 ---
 
 ## Part 1: Web Development Foundations + Portfolio Capstone
