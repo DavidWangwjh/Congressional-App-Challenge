@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tags Teaching Demo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background: #f7f9fc;
+        color: #222;
+      }
+
+      header {
+        background: #ffffff;
+        padding: 32px 24px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+
+      .intro {
+        background: #eef6ff;
+        border: 1px solid #cfe3ff;
+        padding: 16px;
+        border-radius: 10px;
+        margin-bottom: 24px;
+      }
+
+      .demo-section {
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 24px;
+      }
+
+      .demo-section h2 {
+        margin-top: 0;
+      }
+
+      .label {
+        display: inline-block;
+        font-size: 14px;
+        font-weight: bold;
+        background: #e8f0fe;
+        border: 1px solid #c6dafc;
+        padding: 4px 8px;
+        border-radius: 999px;
+        margin-bottom: 10px;
+      }
+
+      .explanation {
+        margin: 8px 0 16px 0;
+      }
+
+      .code-box {
+        background: #f4f4f4;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 12px;
+        overflow-x: auto;
+        font-family: "Courier New", monospace;
+        font-size: 14px;
+        white-space: pre-wrap;
+      }
+
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 500px;
+      }
+
+      th,
+      td {
+        border: 1px solid #999;
+        padding: 8px 12px;
+        text-align: left;
+      }
+
+      nav a {
+        margin-right: 12px;
+      }
+
+      .inline-demo span {
+        background: #fff4cc;
+        padding: 2px 6px;
+        border-radius: 6px;
+      }
+
+      footer.page-footer {
+        text-align: center;
+        padding: 24px;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>HTML Tags Demo</h1>
+      <p>
+        This page is a clean classroom demo that shows common HTML tags and
+        explains what each one does.
+      </p>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h2>How to use this page</h2>
+        <p>
+          Each section below shows:
+        </p>
+        <ul>
+          <li>the name of the HTML tag</li>
+          <li>what the tag does</li>
+          <li>an example of how it looks on the webpage</li>
+          <li>the code used to create it</li>
+        </ul>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">&lt;h1&gt; to &lt;h6&gt; — Headings</div>
+        <p class="explanation">
+          Heading tags are used for titles and section names. <code>&lt;h1&gt;</code>
+          is the biggest heading and <code>&lt;h6&gt;</code> is the smallest.
+        </p>
+
+        <h1>This is an h1 heading</h1>
+        <h2>This is an h2 heading</h2>
+        <h3>This is an h3 heading</h3>
+        <h4>This is an h4 heading</h4>
+        <h5>This is an h5 heading</h5>
+        <h6>This is an h6 heading</h6>
+
+        <div class="code-box">
+&lt;h1&gt;This is an h1 heading&lt;/h1&gt;
+&lt;h2&gt;This is an h2 heading&lt;/h2&gt;
+&lt;h3&gt;This is an h3 heading&lt;/h3&gt;
+&lt;h4&gt;This is an h4 heading&lt;/h4&gt;
+&lt;h5&gt;This is an h5 heading&lt;/h5&gt;
+&lt;h6&gt;This is an h6 heading&lt;/h6&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">&lt;p&gt; — Paragraph</div>
+        <p class="explanation">
+          The paragraph tag is used for normal text on a webpage.
+        </p>
+
+        <p>This is an example paragraph. It is used for writing sentences and information on a page.</p>
+
+        <div class="code-box">
+&lt;p&gt;This is an example paragraph.&lt;/p&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">&lt;br&gt; — Line Break</div>
+        <p class="explanation">
+          The line break tag moves text to the next line without starting a new paragraph.
+        </p>
+
+        <p>
+          This is the first line.<br>
+          This is the second line after a line break.
+        </p>
+
+        <div class="code-box">
+&lt;p&gt;
+  This is the first line.&lt;br&gt;
+  This is the second line after a line break.
+&lt;/p&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">&lt;hr&gt; — Horizontal Rule</div>
+        <p class="explanation">
+          The horizontal rule tag adds a line across the page. It is often used to separate sections.
+        </p>
+
+        <hr />
+
+        <div class="code-box">
+&lt;hr&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">Text Formatting Tags</div>
+        <p class="explanation">
+          These tags change the appearance or meaning of text.
+        </p>
+
+        <p><b>&lt;b&gt; makes text bold.</b></p>
+        <p><strong>&lt;strong&gt; shows important bold text.</strong></p>
+        <p><i>&lt;i&gt; makes text italic.</i></p>
+        <p><em>&lt;em&gt; emphasizes text, usually italic.</em></p>
+        <p><u>&lt;u&gt; underlines text.</u></p>
+        <p><mark>&lt;mark&gt; highlights text.</mark></p>
+        <p><small>&lt;small&gt; makes text smaller.</small></p>
+        <p><del>&lt;del&gt; shows deleted text.</del></p>
+        <p>H<sub>2</sub>O uses <code>&lt;sub&gt;</code> for the small 2.</p>
+        <p>2<sup>3</sup> uses <code>&lt;sup&gt;</code> for the raised 3.</p>
+
+        <div class="code-box">
+&lt;b&gt;Bold text&lt;/b&gt;
+&lt;strong&gt;Important text&lt;/strong&gt;
+&lt;i&gt;Italic text&lt;/i&gt;
+&lt;em&gt;Emphasized text&lt;/em&gt;
+&lt;u&gt;Underlined text&lt;/u&gt;
+&lt;mark&gt;Highlighted text&lt;/mark&gt;
+&lt;small&gt;Small text&lt;/small&gt;
+&lt;del&gt;Deleted text&lt;/del&gt;
+H&lt;sub&gt;2&lt;/sub&gt;O
+2&lt;sup&gt;3&lt;/sup&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">&lt;a&gt; — Link</div>
+        <p class="explanation">
+          The anchor tag creates a clickable link. The <code>href</code> attribute tells the browser where to go.
+        </p>
+
+        <p>
+          <a href="https://github.com" target="_blank">Visit GitHub</a>
+        </p>
+
+        <div class="code-box">
+&lt;a href="https://github.com" target="_blank"&gt;Visit GitHub&lt;/a&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">&lt;img&gt; — Image</div>
+        <p class="explanation">
+          The image tag displays a picture. The <code>src</code> attribute tells where the image is, and the <code>alt</code> attribute describes it.
+        </p>
+
+        <img
+          src="data:image/webp;base64,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"
+          alt="Example placeholder image"
+        />
+
+        <div class="code-box">
+&lt;img src="data:image/webp;base64,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" alt="cat image"&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; — Lists</div>
+        <p class="explanation">
+          Use lists to organize items. <code>&lt;ul&gt;</code> creates bullet points, <code>&lt;ol&gt;</code> creates numbered lists, and <code>&lt;li&gt;</code> is each list item.
+        </p>
+
+        <h3>Unordered List</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <ol>
+          <li>Open VS Code</li>
+          <li>Create index.html</li>
+          <li>Write code</li>
+        </ol>
+
+        <div class="code-box">
+&lt;ul&gt;
+  &lt;li&gt;HTML&lt;/li&gt;
+  &lt;li&gt;CSS&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Open VS Code&lt;/li&gt;
+  &lt;li&gt;Create index.html&lt;/li&gt;
+  &lt;li&gt;Write code&lt;/li&gt;
+&lt;/ol&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt; — Table</div>
+        <p class="explanation">
+          Tables are used to organize information into rows and columns.
+        </p>
+
+        <table>
+          <tr>
+            <th>Name</th>
+            <th>Role</th>
+          </tr>
+          <tr>
+            <td>David</td>
+            <td>Student</td>
+          </tr>
+          <tr>
+            <td>Alex</td>
+            <td>Developer</td>
+          </tr>
+        </table>
+
+        <div class="code-box">
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Role&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;David&lt;/td&gt;
+    &lt;td&gt;Student&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">&lt;div&gt; and &lt;span&gt;</div>
+        <p class="explanation">
+          <code>&lt;div&gt;</code> is a block container used to group larger sections. <code>&lt;span&gt;</code> is an inline container used for small parts of text.
+        </p>
+
+        <div style="padding: 10px; border: 1px solid #bbb; margin-bottom: 12px;">
+          This is a div. It groups a block of content together.
+        </div>
+
+        <p class="inline-demo">
+          This sentence has a <span>span tag</span> inside it.
+        </p>
+
+        <div class="code-box">
+&lt;div&gt;This is a div.&lt;/div&gt;
+&lt;p&gt;This sentence has a &lt;span&gt;span tag&lt;/span&gt; inside it.&lt;/p&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">Form Tags</div>
+        <p class="explanation">
+          Forms collect information from users. Common form tags include <code>&lt;form&gt;</code>, <code>&lt;label&gt;</code>, <code>&lt;input&gt;</code>, <code>&lt;textarea&gt;</code>, <code>&lt;select&gt;</code>, and <code>&lt;button&gt;</code>.
+        </p>
+      
+        <form>
+          <p>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" />
+          </p>
+      
+          <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" />
+          </p>
+      
+          <p>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea>
+          </p>
+      
+          <p>
+            <label for="grade">Grade:</label><br>
+            <select id="grade" name="grade">
+              <option>6th</option>
+              <option>7th</option>
+              <option>8th</option>
+            </select>
+          </p>
+      
+          <p>
+            <input type="checkbox" id="robotics" name="robotics" />
+            <label for="robotics">I like robotics</label>
+          </p>
+      
+          <p>
+            <input type="radio" id="beginner" name="level" value="beginner" />
+            <label for="beginner">Beginner</label>
+      
+            <input type="radio" id="advanced" name="level" value="advanced" />
+            <label for="advanced">Advanced</label>
+          </p>
+      
+          <button type="submit">Submit</button>
+        </form>
+      
+        <div class="code-box">
+      &lt;form&gt;
+        &lt;p&gt;
+          &lt;label for="name"&gt;Name:&lt;/label&gt;&lt;br&gt;
+          &lt;input type="text" id="name" name="name" /&gt;
+        &lt;/p&gt;
+      
+        &lt;p&gt;
+          &lt;label for="email"&gt;Email:&lt;/label&gt;&lt;br&gt;
+          &lt;input type="email" id="email" name="email" /&gt;
+        &lt;/p&gt;
+      
+        &lt;p&gt;
+          &lt;label for="message"&gt;Message:&lt;/label&gt;&lt;br&gt;
+          &lt;textarea id="message" name="message" rows="4" cols="30"&gt;&lt;/textarea&gt;
+        &lt;/p&gt;
+      
+        &lt;p&gt;
+          &lt;label for="grade"&gt;Grade:&lt;/label&gt;&lt;br&gt;
+          &lt;select id="grade" name="grade"&gt;
+            &lt;option&gt;6th&lt;/option&gt;
+            &lt;option&gt;7th&lt;/option&gt;
+            &lt;option&gt;8th&lt;/option&gt;
+          &lt;/select&gt;
+        &lt;/p&gt;
+      
+        &lt;p&gt;
+          &lt;input type="checkbox" id="robotics" name="robotics" /&gt;
+          &lt;label for="robotics"&gt;I like robotics&lt;/label&gt;
+        &lt;/p&gt;
+      
+        &lt;p&gt;
+          &lt;input type="radio" id="beginner" name="level" value="beginner" /&gt;
+          &lt;label for="beginner"&gt;Beginner&lt;/label&gt;
+      
+          &lt;input type="radio" id="advanced" name="level" value="advanced" /&gt;
+          &lt;label for="advanced"&gt;Advanced&lt;/label&gt;
+        &lt;/p&gt;
+      
+        &lt;button type="submit"&gt;Submit&lt;/button&gt;
+      &lt;/form&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">Semantic Tags</div>
+        <p class="explanation">
+          Semantic tags help describe the meaning of different parts of a webpage. They make code easier to read and organize.
+        </p>
+
+        <section style="border: 1px dashed #aaa; padding: 12px; margin-bottom: 12px;">
+          <header>
+            <strong>&lt;header&gt;</strong>
+            <p>This is the top section of a page or section.</p>
+          </header>
+        </section>
+
+        <section style="border: 1px dashed #aaa; padding: 12px; margin-bottom: 12px;">
+          <nav>
+            <strong>&lt;nav&gt;</strong><br>
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+          </nav>
+        </section>
+
+        <section style="border: 1px dashed #aaa; padding: 12px; margin-bottom: 12px;">
+          <main>
+            <strong>&lt;main&gt;</strong>
+            <p>This is the main content of the page.</p>
+
+            <section>
+              <strong>&lt;section&gt;</strong>
+              <p>A section groups related content.</p>
+            </section>
+
+            <article>
+              <strong>&lt;article&gt;</strong>
+              <p>An article is a complete piece of content.</p>
+            </article>
+
+            <aside>
+              <strong>&lt;aside&gt;</strong>
+              <p>An aside contains extra information.</p>
+            </aside>
+          </main>
+        </section>
+
+        <section style="border: 1px dashed #aaa; padding: 12px;">
+          <footer>
+            <strong>&lt;footer&gt;</strong>
+            <p>This is the bottom section of a page.</p>
+          </footer>
+        </section>
+
+        <div class="code-box">
+&lt;header&gt;...&lt;/header&gt;
+&lt;nav&gt;...&lt;/nav&gt;
+&lt;main&gt;...&lt;/main&gt;
+&lt;section&gt;...&lt;/section&gt;
+&lt;article&gt;...&lt;/article&gt;
+&lt;aside&gt;...&lt;/aside&gt;
+&lt;footer&gt;...&lt;/footer&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">&lt;code&gt; and &lt;pre&gt; — Code Display</div>
+        <p class="explanation">
+          <code>&lt;code&gt;</code> is used to show code. <code>&lt;pre&gt;</code> keeps the spacing and line breaks exactly as written.
+        </p>
+
+        <p>Inline code example: <code>&lt;h1&gt;Hello&lt;/h1&gt;</code></p>
+
+        <pre><code>&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+        <div class="code-box">
+&lt;p&gt;Inline code example: &lt;code&gt;&amp;lt;h1&amp;gt;Hello&amp;lt;/h1&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;
+&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/code&gt;&lt;/pre&gt;
+        </div>
+      </section>
+
+      <section class="demo-section">
+        <div class="label">&lt;!-- comment --&gt; — HTML Comment</div>
+        <p class="explanation">
+          Comments are notes for people reading the code. They do not appear on the webpage.
+        </p>
+
+        <p>You cannot see the comment on this page, but it exists in the HTML file.</p>
+
+        <div class="code-box">
+&lt;!-- This is an HTML comment --&gt;
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>End of HTML Tags Demo</p>
+    </footer>
+  </body>
+</html>
