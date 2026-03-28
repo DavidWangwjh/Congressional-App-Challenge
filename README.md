@@ -32,14 +32,16 @@ Reach out to Sensei David: davidcnuc@gmail.com
 - Accessibility basics
 
 ### Week 4: 3/23 - 3/29  
+**HTML Fundamentals Continued**
+- HTML review
+- HTML challenges
+- Style attribute
+
+### Week 5: 3/30 - 4/5  
 **CSS Fundamentals**
 - Colors, fonts, spacing
 - CSS selectors and properties
-
-### Week 5: 3/30 - 4/5  
-**CSS Layout & Flexbox**
 - Page layout strategies
-- Flexbox positioning
 
 ### Week 6: 4/6 - 4/12  
 **Responsive Design & UI Polish**
