@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Fundamentals Demo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 24px;
+        background-color: #f5f7fb;
+        color: #222;
+      }
+
+      .page-title {
+        text-align: center;
+        margin-bottom: 8px;
+      }
+
+      .page-subtitle {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 32px;
+        color: #555;
+      }
+
+      .section {
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 24px;
+      }
+
+      .section h2 {
+        margin-top: 0;
+      }
+
+      .example-box {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 16px;
+        margin-top: 12px;
+        margin-bottom: 16px;
+        background-color: #fafafa;
+      }
+
+      .code-box {
+        background-color: #f4f4f4;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 12px;
+        white-space: pre-wrap;
+        font-family: "Courier New", monospace;
+        font-size: 14px;
+        margin-top: 12px;
+      }
+
+      .color-name-example {
+        color: red;
+      }
+
+      .hex-example {
+        color: #1e90ff;
+      }
+
+      .rgb-example {
+        color: rgb(34, 139, 34);
+      }
+
+      .bg-color-example {
+        background-color: #fff3b0;
+        padding: 10px;
+      }
+
+      .combo-color-example {
+        color: white;
+        background-color: #333;
+        padding: 10px;
+      }
+
+      .font-size-example {
+        font-size: 24px;
+      }
+
+      .font-family-example {
+        font-family: "Courier New", monospace;
+      }
+
+      .font-weight-example {
+        font-weight: bold;
+      }
+
+      .text-align-example {
+        text-align: center;
+      }
+
+      .text-decoration-example {
+        text-decoration: underline;
+      }
+
+      .spacing-demo-wrapper {
+        background-color: #eef3ff;
+        padding: 12px;
+        border-radius: 8px;
+      }
+
+      .margin-example {
+        margin: 20px;
+        background-color: #ffd6d6;
+        padding: 10px;
+      }
+
+      .padding-example {
+        padding: 20px;
+        background-color: #d9f7be;
+      }
+
+      .border-example {
+        border: 3px solid #555;
+        padding: 10px;
+      }
+
+      .units-px {
+        font-size: 24px;
+      }
+
+      .units-percent-wrapper {
+        background-color: #eee;
+        padding: 10px;
+      }
+
+      .units-percent-box {
+        width: 50%;
+        background-color: #cfe2ff;
+        padding: 10px;
+      }
+
+      .units-em-parent {
+        font-size: 20px;
+      }
+
+      .units-em-child {
+        font-size: 1.5em;
+      }
+
+      .selector-demo p {
+        color: #444;
+      }
+
+      .selector-demo .highlight {
+        color: #d63384;
+        font-weight: bold;
+      }
+
+      .selector-demo #special-title {
+        color: #0d6efd;
+      }
+
+      .selector-demo h3,
+      .selector-demo h4 {
+        background-color: #e8f4ff;
+        padding: 6px;
+        border-radius: 6px;
+      }
+
+      .property-demo-card {
+        background-color: #f8f9fa;
+        color: #222;
+        font-size: 18px;
+        padding: 16px;
+        margin-top: 12px;
+        border: 2px solid #adb5bd;
+        border-radius: 10px;
+        text-align: center;
+      }
+
+      ul li {
+        margin-bottom: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="page-title">CSS Fundamentals Demo</h1>
+    <p class="page-subtitle">
+      This page shows live examples for colors, fonts, spacing, units, selectors,
+      and properties.
+    </p>
+
+    <section class="section">
+      <h2>Part 3: Colors</h2>
+      <p>
+        CSS lets us change the color of text and the background of elements.
+      </p>
+
+      <div class="example-box">
+        <h3>1. Color Names</h3>
+        <p class="color-name-example">
+          This text uses a color name: <strong>red</strong>.
+        </p>
+        <div class="code-box">
+.color-name-example {
+  color: red;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>2. HEX Colors</h3>
+        <p class="hex-example">
+          This text uses a HEX color: <strong>#1e90ff</strong>.
+        </p>
+        <div class="code-box">
+.hex-example {
+  color: #1e90ff;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>3. RGB Colors</h3>
+        <p class="rgb-example">
+          This text uses an RGB color: <strong>rgb(34, 139, 34)</strong>.
+        </p>
+        <div class="code-box">
+.rgb-example {
+  color: rgb(34, 139, 34);
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>4. Background Color</h3>
+        <p class="bg-color-example">
+          This paragraph has a background color.
+        </p>
+        <div class="code-box">
+.bg-color-example {
+  background-color: #fff3b0;
+  padding: 10px;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>5. Combining Text Color and Background Color</h3>
+        <p class="combo-color-example">
+          This text is white on a dark background.
+        </p>
+        <div class="code-box">
+.combo-color-example {
+  color: white;
+  background-color: #333;
+  padding: 10px;
+}
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Part 4: Fonts</h2>
+      <p>
+        CSS lets us change how text looks, including its size, style, and alignment.
+      </p>
+
+      <div class="example-box">
+        <h3>1. Font Size</h3>
+        <p class="font-size-example">
+          This text is larger because of <code>font-size: 24px;</code>
+        </p>
+        <div class="code-box">
+.font-size-example {
+  font-size: 24px;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>2. Font Family</h3>
+        <p class="font-family-example">
+          This text uses a different font family.
+        </p>
+        <div class="code-box">
+.font-family-example {
+  font-family: "Courier New", monospace;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>3. Font Weight</h3>
+        <p class="font-weight-example">
+          This text is bold because of <code>font-weight: bold;</code>
+        </p>
+        <div class="code-box">
+.font-weight-example {
+  font-weight: bold;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>4. Text Alignment</h3>
+        <p class="text-align-example">
+          This text is centered.
+        </p>
+        <div class="code-box">
+.text-align-example {
+  text-align: center;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>5. Text Decoration</h3>
+        <p class="text-decoration-example">
+          This text is underlined.
+        </p>
+        <div class="code-box">
+.text-decoration-example {
+  text-decoration: underline;
+}
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Part 5: Spacing</h2>
+      <p>
+        Spacing makes websites easier to read. The most common spacing properties are
+        <code>margin</code> and <code>padding</code>.
+      </p>
+
+      <div class="example-box">
+        <h3>1. Margin</h3>
+        <p>
+          Margin is the space <strong>outside</strong> an element.
+        </p>
+        <div class="spacing-demo-wrapper">
+          <div class="margin-example">
+            This box has <code>margin: 20px;</code>
+          </div>
+        </div>
+        <div class="code-box">
+.margin-example {
+  margin: 20px;
+  background-color: #ffd6d6;
+  padding: 10px;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>2. Padding</h3>
+        <p>
+          Padding is the space <strong>inside</strong> an element.
+        </p>
+        <div class="padding-example">
+          This box has <code>padding: 20px;</code>
+        </div>
+        <div class="code-box">
+.padding-example {
+  padding: 20px;
+  background-color: #d9f7be;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>3. Border</h3>
+        <p>
+          A border adds an outline around an element.
+        </p>
+        <div class="border-example">
+          This box has a border.
+        </div>
+        <div class="code-box">
+.border-example {
+  border: 3px solid #555;
+  padding: 10px;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>4. Margin + Padding Together</h3>
+        <p>
+          Many elements use both margin and padding.
+        </p>
+        <div
+          style="
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #888;
+            background-color: #fff0f6;
+          "
+        >
+          This box has margin, padding, border, and background color together.
+        </div>
+        <div class="code-box">
+style="
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #888;
+  background-color: #fff0f6;
+"
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Part 6: Units</h2>
+      <p>
+        CSS uses units to define size. Different units are useful in different situations.
+      </p>
+
+      <div class="example-box">
+        <h3>1. Pixels (px)</h3>
+        <p class="units-px">
+          This text uses <code>24px</code>.
+        </p>
+        <p>
+          Pixels are fixed sizes.
+        </p>
+        <div class="code-box">
+.units-px {
+  font-size: 24px;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>2. Percent (%)</h3>
+        <p>
+          Percent is relative to the parent element.
+        </p>
+        <div class="units-percent-wrapper">
+          <div class="units-percent-box">
+            This box is 50% of the parent width.
+          </div>
+        </div>
+        <div class="code-box">
+.units-percent-box {
+  width: 50%;
+  background-color: #cfe2ff;
+  padding: 10px;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>3. em</h3>
+        <p>
+          <code>em</code> is relative to the font size of the parent element.
+        </p>
+        <div class="units-em-parent">
+          Parent text is 20px.
+          <div class="units-em-child">
+            This child text is 1.5em, so it becomes larger.
+          </div>
+        </div>
+        <div class="code-box">
+.units-em-parent {
+  font-size: 20px;
+}
+
+.units-em-child {
+  font-size: 1.5em;
+}
+        </div>
+      </div>
+    </section>
+
+    <section class="section selector-demo">
+      <h2>Bonus Review: CSS Selectors</h2>
+      <p>
+        Selectors choose which HTML elements the CSS should style.
+      </p>
+
+      <div class="example-box">
+        <h3>1. Element Selector</h3>
+        <p>This paragraph is targeted by the <code>p</code> selector.</p>
+        <p>All paragraph tags inside this section are affected.</p>
+        <div class="code-box">
+.selector-demo p {
+  color: #444;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>2. Class Selector</h3>
+        <p class="highlight">
+          This paragraph uses the class <code>highlight</code>.
+        </p>
+        <div class="code-box">
+.selector-demo .highlight {
+  color: #d63384;
+  font-weight: bold;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>3. ID Selector</h3>
+        <h3 id="special-title">This heading uses the id "special-title"</h3>
+        <div class="code-box">
+.selector-demo #special-title {
+  color: #0d6efd;
+}
+        </div>
+      </div>
+
+      <div class="example-box">
+        <h3>4. Multiple Selectors</h3>
+        <h3>This is an h3 element</h3>
+        <h4>This is an h4 element</h4>
+        <div class="code-box">
+.selector-demo h3,
+.selector-demo h4 {
+  background-color: #e8f4ff;
+  padding: 6px;
+  border-radius: 6px;
+}
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Bonus Review: Properties and Values</h2>
+      <p>
+        A CSS rule is made of a selector and declarations. Each declaration has a
+        <strong>property</strong> and a <strong>value</strong>.
+      </p>
+
+      <div class="property-demo-card">
+        This card uses several CSS properties together.
+      </div>
+
+      <ul>
+        <li><code>background-color</code> changes the background</li>
+        <li><code>color</code> changes text color</li>
+        <li><code>font-size</code> changes text size</li>
+        <li><code>padding</code> adds space inside</li>
+        <li><code>border</code> adds an outline</li>
+        <li><code>text-align</code> changes alignment</li>
+      </ul>
+
+      <div class="code-box">
+.property-demo-card {
+  background-color: #f8f9fa;
+  color: #222;
+  font-size: 18px;
+  padding: 16px;
+  border: 2px solid #adb5bd;
+  border-radius: 10px;
+  text-align: center;
+}
+      </div>
+    </section>
+  </body>
+</html>
