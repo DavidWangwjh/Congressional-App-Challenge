@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player Dashboard</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 30px;
+        font-family: Arial, sans-serif;
+        background-color: #eef2ff;
+        color: #1f2937;
+      }
+
+      .dashboard {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+
+      .profile {
+        background-color: white;
+        border-radius: 16px;
+        padding: 24px;
+        margin-bottom: 24px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      }
+
+      .profile h1 {
+        margin-top: 0;
+        margin-bottom: 8px;
+        color: #4338ca;
+      }
+
+      .profile p {
+        margin-bottom: 0;
+        color: #4b5563;
+        font-size: 17px;
+      }
+
+      .stats-row {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 24px;
+      }
+
+      .stat-box {
+        flex: 1;
+        background-color: white;
+        border-radius: 14px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      }
+
+      .stat-box h2 {
+        margin: 0 0 10px 0;
+        font-size: 18px;
+        color: #6b7280;
+      }
+
+      .stat-box p {
+        margin: 0;
+        font-size: 28px;
+        font-weight: bold;
+        color: #111827;
+      }
+
+      .missions {
+        background-color: white;
+        border-radius: 16px;
+        padding: 24px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      }
+
+      .missions h2 {
+        margin-top: 0;
+        color: #4338ca;
+      }
+
+      .missions ul {
+        padding-left: 20px;
+        margin-bottom: 0;
+      }
+
+      .missions li {
+        margin-bottom: 12px;
+        font-size: 17px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dashboard">
+      <section class="profile">
+        <h1>Player: NovaKnight</h1>
+        <p>Level 12 space warrior exploring the outer galaxy.</p>
+      </section>
+
+      <section class="stats-row">
+        <div class="stat-box">
+          <h2>Coins</h2>
+          <p>2450</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>XP</h2>
+          <p>8900</p>
+        </div>
+
+        <div class="stat-box">
+          <h2>Rank</h2>
+          <p>Elite</p>
+        </div>
+      </section>
+
+      <section class="missions">
+        <h2>Current Missions</h2>
+        <ul>
+          <li>Defeat the Lava Beast</li>
+          <li>Collect 10 energy gems</li>
+          <li>Unlock the hidden portal</li>
+        </ul>
+      </section>
+    </div>
+  </body>
+</html>
