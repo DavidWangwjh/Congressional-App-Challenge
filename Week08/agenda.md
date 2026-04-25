@@ -11,3 +11,6 @@ https://www.youtube.com/watch?v=wsTv9y931o8
 
 ## Learn JavaScript Element Selectors
 https://www.youtube.com/watch?v=FQtjI1PC5Z0
+
+## Homework
+Finish watching all 3 videos if you're not able to in class. We'll officially start learning JavaScript next week!
